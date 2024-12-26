@@ -15,15 +15,12 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='eren',
-    maintainer_email='eren@todo.todo',
+    maintainer_email='',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "deneme1 = my_robot_controller.deneme1:main",
-            "circle = my_robot_controller.circle_node:main",
-            "deneme2 = my_robot_controller.deneme2:main",
             "robot2 = my_robot_controller.robot2:main",
             "robot1 = my_robot_controller.robot1:main"
         ],
